@@ -65,11 +65,6 @@ class App extends React.Component {
   selectForm() {
     return(
       <div>
-        <nav>
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo center">Matching Game</a>
-          </div>
-        </nav>
         <div className='row'>
           <h4 className='center white-text'>Select Your Friends</h4>
           <form className="col s10 offset-s1 input-field text-white" onSubmit={this.getFriends}>
@@ -167,11 +162,6 @@ class App extends React.Component {
 
       return (
         <div>
-          <nav>
-            <div className="nav-wrapper">
-              <a href="#" className="brand-logo center">Matching Game</a>
-            </div>
-          </nav>
           <div className='row'>
             {cards}
           </div>
