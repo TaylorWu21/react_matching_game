@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.input-field {
+  color: white;
+}
+
+nav {
+  background-color: #ff1744;
+}
+
+img {
+  margin-top: 10px;
+}
+
+html {
+  background-image: url('../public/images/disney.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
